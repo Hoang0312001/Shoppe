@@ -1,0 +1,67 @@
+:root{
+--while-color:#fff;
+--back-color:#333;
+--text-color:#000;
+--primary-color:#FC6C00;
+--header-height:120px;
+--navbar-height:35px;
+--header-width-search-height:calc(var(--header-height) - var(--navbar-height));
+}
+*{
+    /* ke thua ke nam no   */
+    box-sizing: border-box;
+}
+html{
+    /* 16px */
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+/* ke thua = 16px */
+/* p{
+    font-size: 1rem;
+} */
+/* .grid{
+    width: 1400px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid-1200{
+    width: 1400px;
+    max-width: 100%;
+    margin: 0 auto;
+} */
+.grid__colunm-2{
+padding-left: 5px;
+padding-right: 5px;
+width: 16.667%;
+}
+.grid__colunm-10{
+    font-family: "Helvetica Neue", Helvetica, Arial, 文泉驛正黑, "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC", 微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+    padding-left:5px;
+    padding-right:5px;
+    width: 83.333%;
+
+
+}
+.grid__column-2-4{
+    padding-left:5px;
+padding-right:5px;
+width: 20%;
+}
+.grid__full__width{
+    width: 100%;
+}
+.grid__row{
+    display: flex;
+    /* tong chieu cao vuot qua tu nhay xuong dong */
+    flex-wrap: wrap;
+    margin-left:-5px;
+    margin-right: -5px;
+
+}
+.app-content{
+padding-top: 36px;
+}
+
+
